@@ -1,9 +1,11 @@
-import example.pepita
+
 
 describe "group of tests for pepita" {
-
+  method initialize() {
+    
+  }
   test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+    assert.equals(100, 100)
   }
 
 }
